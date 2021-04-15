@@ -29,7 +29,9 @@ class ViewController: UIViewController {
 
     func relizeMarkers() {
         print(appNetworkUtils.stations.count)
-        appNetworkUtils.stations.forEach{ cord in
+        let sites = appNetworkUtils.getFreeSites()
+        print(sites.count)
+        sites.forEach{ cord in
             printMarkers(latitud: cord.latitude, longitud: cord.longitude, title: cord.name, mapView: mapView!)
         }
     }

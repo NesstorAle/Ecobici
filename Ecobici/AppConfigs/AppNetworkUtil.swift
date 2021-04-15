@@ -44,4 +44,8 @@ class AppNetworkUtil {
         }
     }
     
+    func getFreeSites() -> [Stations]{
+        return stations
+    }
+    
 }
