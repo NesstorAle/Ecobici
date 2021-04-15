@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41895D652627D78600E3D4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D642627D78600E3D4BE /* AppDelegate.swift */; };
+		41895D672627D78600E3D4BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D662627D78600E3D4BE /* SceneDelegate.swift */; };
+		41895D692627D78600E3D4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D682627D78600E3D4BE /* ViewController.swift */; };
+		41895D6C2627D78600E3D4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41895D6A2627D78600E3D4BE /* Main.storyboard */; };
+		41895D6E2627D78C00E3D4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41895D6D2627D78C00E3D4BE /* Assets.xcassets */; };
+		41895D712627D78C00E3D4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41895D6F2627D78C00E3D4BE /* LaunchScreen.storyboard */; };
+		41895D7F26280EFC00E3D4BE /* Cordenates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D7E26280EFC00E3D4BE /* Cordenates.swift */; };
+		41895D832628B32400E3D4BE /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D822628B32400E3D4BE /* AppConstant.swift */; };
+		41895D8D2628B7C000E3D4BE /* AppNetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D8C2628B7C000E3D4BE /* AppNetworkUtil.swift */; };
+		41895D922628DBB500E3D4BE /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D912628DBB500E3D4BE /* Stations.swift */; };
+		FC61ECD4F04862E10216E27B /* Pods_Ecobici.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667D1A5CCCA452DD7CC8309C /* Pods_Ecobici.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F794DEBE52D347CC6D961E /* Pods-Ecobici.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecobici.release.xcconfig"; path = "Target Support Files/Pods-Ecobici/Pods-Ecobici.release.xcconfig"; sourceTree = "<group>"; };
+		1E553D70B05C28F241264676 /* Pods-Ecobici.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ecobici.debug.xcconfig"; path = "Target Support Files/Pods-Ecobici/Pods-Ecobici.debug.xcconfig"; sourceTree = "<group>"; };
+		41895D612627D78600E3D4BE /* Ecobici.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecobici.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41895D642627D78600E3D4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41895D662627D78600E3D4BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41895D682627D78600E3D4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41895D6B2627D78600E3D4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41895D6D2627D78C00E3D4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41895D702627D78C00E3D4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41895D722627D78C00E3D4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41895D7E26280EFC00E3D4BE /* Cordenates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordenates.swift; sourceTree = "<group>"; };
+		41895D822628B32400E3D4BE /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
+		41895D8C2628B7C000E3D4BE /* AppNetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetworkUtil.swift; sourceTree = "<group>"; };
+		41895D912628DBB500E3D4BE /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
+		667D1A5CCCA452DD7CC8309C /* Pods_Ecobici.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecobici.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41895D5E2627D78600E3D4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC61ECD4F04862E10216E27B /* Pods_Ecobici.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41895D582627D78600E3D4BE = {
+			isa = PBXGroup;
+			children = (
+				41895D632627D78600E3D4BE /* Ecobici */,
+				41895D622627D78600E3D4BE /* Products */,
+				A7EEC7539E4CA70565BDD07A /* Pods */,
+				5DBC37227BC5BC83842FC8A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		41895D622627D78600E3D4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41895D612627D78600E3D4BE /* Ecobici.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41895D632627D78600E3D4BE /* Ecobici */ = {
+			isa = PBXGroup;
+			children = (
+				41895D7D26280EA500E3D4BE /* Models */,
+				41895D892628B52C00E3D4BE /* Views */,
+				41895D862628B50800E3D4BE /* Controllers */,
+				41895D812628B30000E3D4BE /* AppConfigs */,
+				41895D6D2627D78C00E3D4BE /* Assets.xcassets */,
+				41895D722627D78C00E3D4BE /* Info.plist */,
+			);
+			path = Ecobici;
+			sourceTree = "<group>";
+		};
+		41895D7D26280EA500E3D4BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				41895D7E26280EFC00E3D4BE /* Cordenates.swift */,
+				41895D912628DBB500E3D4BE /* Stations.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		41895D812628B30000E3D4BE /* AppConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				41895D642627D78600E3D4BE /* AppDelegate.swift */,
+				41895D662627D78600E3D4BE /* SceneDelegate.swift */,
+				41895D822628B32400E3D4BE /* AppConstant.swift */,
+				41895D8C2628B7C000E3D4BE /* AppNetworkUtil.swift */,
+			);
+			path = AppConfigs;
+			sourceTree = "<group>";
+		};
+		41895D862628B50800E3D4BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				41895D682627D78600E3D4BE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		41895D892628B52C00E3D4BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				41895D6F2627D78C00E3D4BE /* LaunchScreen.storyboard */,
+				41895D6A2627D78600E3D4BE /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5DBC37227BC5BC83842FC8A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				667D1A5CCCA452DD7CC8309C /* Pods_Ecobici.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7EEC7539E4CA70565BDD07A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E553D70B05C28F241264676 /* Pods-Ecobici.debug.xcconfig */,
+				08F794DEBE52D347CC6D961E /* Pods-Ecobici.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41895D602627D78600E3D4BE /* Ecobici */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41895D752627D78C00E3D4BE /* Build configuration list for PBXNativeTarget "Ecobici" */;
+			buildPhases = (
+				CBA2EFC1E93AB92AC8249847 /* [CP] Check Pods Manifest.lock */,
+				41895D5D2627D78600E3D4BE /* Sources */,
+				41895D5E2627D78600E3D4BE /* Frameworks */,
+				41895D5F2627D78600E3D4BE /* Resources */,
+				4E3DE444CAA0FC885A516A14 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ecobici;
+			productName = Ecobici;
+			productReference = 41895D612627D78600E3D4BE /* Ecobici.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41895D592627D78600E3D4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					41895D602627D78600E3D4BE = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 41895D5C2627D78600E3D4BE /* Build configuration list for PBXProject "Ecobici" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41895D582627D78600E3D4BE;
+			productRefGroup = 41895D622627D78600E3D4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41895D602627D78600E3D4BE /* Ecobici */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41895D5F2627D78600E3D4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41895D712627D78C00E3D4BE /* LaunchScreen.storyboard in Resources */,
+				41895D6E2627D78C00E3D4BE /* Assets.xcassets in Resources */,
+				41895D6C2627D78600E3D4BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E3DE444CAA0FC885A516A14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecobici/Pods-Ecobici-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ecobici/Pods-Ecobici-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ecobici/Pods-Ecobici-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA2EFC1E93AB92AC8249847 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ecobici-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41895D5D2627D78600E3D4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41895D692627D78600E3D4BE /* ViewController.swift in Sources */,
+				41895D652627D78600E3D4BE /* AppDelegate.swift in Sources */,
+				41895D672627D78600E3D4BE /* SceneDelegate.swift in Sources */,
+				41895D7F26280EFC00E3D4BE /* Cordenates.swift in Sources */,
+				41895D8D2628B7C000E3D4BE /* AppNetworkUtil.swift in Sources */,
+				41895D922628DBB500E3D4BE /* Stations.swift in Sources */,
+				41895D832628B32400E3D4BE /* AppConstant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41895D6A2627D78600E3D4BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41895D6B2627D78600E3D4BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41895D6F2627D78C00E3D4BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41895D702627D78C00E3D4BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41895D732627D78C00E3D4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41895D742627D78C00E3D4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41895D762627D78C00E3D4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E553D70B05C28F241264676 /* Pods-Ecobici.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XSH5N3795;
+				INFOPLIST_FILE = Ecobici/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.nestor.paises.Ecobici;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41895D772627D78C00E3D4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F794DEBE52D347CC6D961E /* Pods-Ecobici.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XSH5N3795;
+				INFOPLIST_FILE = Ecobici/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.nestor.paises.Ecobici;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41895D5C2627D78600E3D4BE /* Build configuration list for PBXProject "Ecobici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41895D732627D78C00E3D4BE /* Debug */,
+				41895D742627D78C00E3D4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41895D752627D78C00E3D4BE /* Build configuration list for PBXNativeTarget "Ecobici" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41895D762627D78C00E3D4BE /* Debug */,
+				41895D772627D78C00E3D4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41895D592627D78600E3D4BE /* Project object */;
+}
