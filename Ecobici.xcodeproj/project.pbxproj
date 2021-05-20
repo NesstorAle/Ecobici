@@ -16,7 +16,6 @@
 		41895D7F26280EFC00E3D4BE /* Cordenates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D7E26280EFC00E3D4BE /* Cordenates.swift */; };
 		41895D832628B32400E3D4BE /* AppConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D822628B32400E3D4BE /* AppConstant.swift */; };
 		41895D8D2628B7C000E3D4BE /* AppNetworkUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D8C2628B7C000E3D4BE /* AppNetworkUtil.swift */; };
-		41895D922628DBB500E3D4BE /* Stations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41895D912628DBB500E3D4BE /* Stations.swift */; };
 		FC61ECD4F04862E10216E27B /* Pods_Ecobici.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 667D1A5CCCA452DD7CC8309C /* Pods_Ecobici.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		41895D7E26280EFC00E3D4BE /* Cordenates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cordenates.swift; sourceTree = "<group>"; };
 		41895D822628B32400E3D4BE /* AppConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstant.swift; sourceTree = "<group>"; };
 		41895D8C2628B7C000E3D4BE /* AppNetworkUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetworkUtil.swift; sourceTree = "<group>"; };
-		41895D912628DBB500E3D4BE /* Stations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stations.swift; sourceTree = "<group>"; };
 		667D1A5CCCA452DD7CC8309C /* Pods_Ecobici.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ecobici.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				41895D7E26280EFC00E3D4BE /* Cordenates.swift */,
-				41895D912628DBB500E3D4BE /* Stations.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -254,7 +251,6 @@
 				41895D672627D78600E3D4BE /* SceneDelegate.swift in Sources */,
 				41895D7F26280EFC00E3D4BE /* Cordenates.swift in Sources */,
 				41895D8D2628B7C000E3D4BE /* AppNetworkUtil.swift in Sources */,
-				41895D922628DBB500E3D4BE /* Stations.swift in Sources */,
 				41895D832628B32400E3D4BE /* AppConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

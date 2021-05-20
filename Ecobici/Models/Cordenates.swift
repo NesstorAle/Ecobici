@@ -8,17 +8,17 @@
 import Foundation
 
 struct Cordenates:Decodable {
-    let network: Network
+    var network: Network
 }
 
 struct Network:Decodable {
-    let stations:[Stations]
+    var stations:[Stations]
 }
 
 struct Stations:Decodable {
-    let empty_slots: Int
-    let free_bikes: Int
-    let latitude: Double
-    let longitude: Double
-    let name: String
+    var empty_slots: Int
+    var free_bikes: Int
+    var latitude: Double
+    var longitude: Double
+    var name: String
 }

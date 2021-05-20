@@ -14,27 +14,32 @@ class ViewController: UIViewController {
     var longitud:Double = -99.133208
     var appNetworkUtils = AppNetworkUtil()
     var mapView: GMSMapView?
+    var response: [Stations] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         GMSServices.provideAPIKey(AppConstant.API_KEY_MAPS)
         
-        let camera = GMSCameraPosition.camera(withLatitude: latitud, longitude: longitud, zoom: 10.0)
+        let camera = GMSCameraPosition.camera(withLatitude: latitud, longitude: longitud, zoom: 13.0)
         mapView = GMSMapView.map(withFrame: view.frame, camera: camera)
         view.addSubview(mapView!)
         
-        appNetworkUtils.requestEcobiciStations(url: AppConstant.API_BASE + AppConstant.END_POINT_ECOBICI)
-        relizeMarkers()
-    }
-
-    func relizeMarkers() {
-        print(appNetworkUtils.stations.count)
-        let sites = appNetworkUtils.getFreeSites()
-        print(sites.count)
-        sites.forEach{ cord in
-            printMarkers(latitud: cord.latitude, longitud: cord.longitude, title: cord.name, mapView: mapView!)
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.appNetworkUtils.requestEcobiciStations { (stat) in
+                DispatchQueue.main.async {
+                    self.response = stat.network.stations
+                    for cor in self.response{
+                        if(cor.empty_slots > 1){
+                            self.printMarkers(latitud: cor.latitude, longitud: cor.longitude, title: cor.name, mapView: self.mapView!)
+                        }
+                        
+                    }
+                    
+                }
+            }
         }
     }
+    
 
     func printMarkers(latitud:Double, longitud:Double, title:String,  mapView:GMSMapView) {
         let marker = GMSMarker()
