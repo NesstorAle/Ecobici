@@ -29,7 +29,7 @@ class ViewController: UIViewController {
                 DispatchQueue.main.async {
                     self.response = stat.network.stations
                     for cor in self.response{
-                        if(cor.empty_slots > 1){
+                        if(cor.free_bikes > 5 && cor.empty_slots > 5){
                             self.printMarkers(latitud: cor.latitude, longitud: cor.longitude, title: cor.name, mapView: self.mapView!)
                         }
                         
